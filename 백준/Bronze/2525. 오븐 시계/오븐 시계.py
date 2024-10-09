@@ -6,9 +6,6 @@ end_h = h+(t//60)
 end_m = m+(t%60)
 
 if(end_m >= 60) :
-    '''
-    m-하고 end_h+1
-    '''
     if (end_h +1 >= 24) :
         print(end_h+1-24, end_m-60)
     else :
